@@ -1,0 +1,1 @@
+//  MovieCard: representa una sola pelicula

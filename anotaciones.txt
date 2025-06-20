@@ -1,0 +1,39 @@
+--------------------CONSUMO DE APIS:--------------------------------------------------
+   ESTRUCTURA DE PROYECTO
+   COMO CONSUMIRLAS
+   PASO A PASO
+
+Primero creamos la ESTRUCTURA del proyecto, que nos van a dar algo general pero lo básico vos ya sabes que debes crearlo, eso 
+sería:      
+    -Crear las carpetas:
+        -Components: Que va a tener los archivos con los componentes básicos de la app, o sea barra de busquedas, botones, 
+        modales, etc.
+        -types: Que vaa contener los archivos con las interfaces que vamos a usar, donde tiparemos lo que vamos a usar.
+        -Crud: aquí tenemos los archivos con los métodos/servicios, donde antes teniamos los controllers, services, routes, 
+        acá lo simplificamos en crud. Crud porque son las siglas de Create-Read-Update-Delete. Simplificamos todo en crud
+        porque acá tenemos que hacer solamente el consumo de la api. 
+        -Screens: acá traemos todos los componentes que vamos a usar a un archivo en screens para crear una pantalla, que luego
+        importaremos a la App.tsx. Por cuestiones de orden
+
+¡Consejo! Anotar en cada archivo lo que vas a hacer para orientarte. 
+
+¡Consejo! Probar la API, VER DOCUMENTACIÓN, TOCARLA PARA VER QUE NOS DA Y AHÍ VEREMOS LOS DATOS QUE NOS DA, 
+PARA PODER EN BASE A ESO HACER LA INTERFACE, O SEA TIPAR LOS DATOS QUE NOS VA A LARGAR LA API
+
+
+Segundo:
+Instalar las dependencias:
+    -Instalamos las básicas: node_modules
+    -Si vamos a hacer consumo de apis, usaremos axios o fetch, entonces instalamos la que usemos, fetch ya viene con todo, axios se 
+     instala aparte.
+    -Identificar las otras dependencias: taiwind, etc
+
+Tercero: 
+    -Empezar creando los tipos, lo que se que nos va a dar la consulta.
+    Luego crear el método en el get donde vamos a hacer el fetch:
+        -podes ver lo que has hecho pero siempre es lo mismo así que hay que aprenderse como se construyo el método. 
+    
+-Revisar si vas a usar componentes funcionales o estados
+
+Nota para los estados: para trabajar con los inputs dentro de las barras buscadoras o en general en cualquier input, ahí usaremos
+los estados para poder acceder adentro de lo que hay en ese input.  
