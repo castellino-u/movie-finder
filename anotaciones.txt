@@ -37,3 +37,32 @@ Tercero:
 
 Nota para los estados: para trabajar con los inputs dentro de las barras buscadoras o en general en cualquier input, ahí usaremos
 los estados para poder acceder adentro de lo que hay en ese input.  
+
+✅ Pasos del proyecto
+Configurar Axios para trabajar con la API de OMDb.
+
+Crear componentes funcionales (FC): Barra de búsqueda, lista de películas, card individual.
+
+Agregar estado local con useState para controlar la búsqueda y los resultados.
+
+Manejar eventos con onChange y onClick para capturar el input y hacer la búsqueda.
+
+Hacer la petición HTTP a la API con Axios cuando el usuario busque algo.
+
+Renderizar los datos recibidos de la API en un componente.
+
+Manejar errores, loading y estados vacíos (por ejemplo, cuando no hay resultados).
+
+Agregar paginación básica si querés mostrar de a 10.
+
+(Opcional) Estilos con CSS o Tailwind.
+
+
+Estilos de cartas: 
+    -definir altura-ancho: mas alta que ancha
+    -bordes redondeados
+    -que ocupe un 60% la imagen y un 40% el texto, depende del diseño y a lo que le queramos dar enfasis
+    -bordes.
+    -padding
+    -margin
+    -gap
