@@ -27,7 +27,11 @@ export const MainScreen = () => {
     <div>
         
         <SearchBar handleSearch={resolvedora}></SearchBar>
-        {loading ? (<Loader></Loader>) : (<MovieList firstSearch={firstSearch} moviesArray={movies} />) }
+        {firstSearch ? (loading ? (<Loader></Loader>) : (<MovieList firstSearch={firstSearch} moviesArray={movies} />)) : 
+        <div className="items-center">
+          <h1 className="text-white items-center text-6xl  text-center mt-[20vh]"> Welcome</h1>
+        </div>
+          }
     </div>
   )
 }
